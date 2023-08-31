@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Nunito:ital,wght@1,200&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -6,7 +6,7 @@
 }
 body{
     width: 100vw;
-    background-color: rgb(227, 240, 252);
+    background-color: rgb(222, 222, 230);
 }
 h1{
     font-size: 1.5rem;
@@ -36,7 +36,8 @@ ul{
     padding-top: 15px;
     padding-bottom: 15px;
     justify-content: space-between;
-    font-family: 'Roboto', sans-serif;
+   font-family: 'Nunito', sans-serif;
+
 }
 .nav-links ul{
     justify-content: end;
@@ -62,7 +63,8 @@ header{
     justify-content: center;
     gap: 50px;
     width: 100%;
-    font-family: 'Roboto', sans-serif;
+   font-family: 'Nunito', sans-serif;
+
     height: 100vh;
 }
 .header-left{
@@ -83,13 +85,19 @@ header{
 .header-btn{
     padding: 12px 60px;
     background-color: #ffffff;
-    color: rgb(78, 78, 235);
+    color: blue;
     margin-top: 30px;
     border-radius: 30px;
     font-size: 17px;
     display: inline-block;
     cursor: pointer;
     border: none;
+
+}
+.header-btn:hover {
+    background-color: #eee;
+    color:black;
+    font-size: medium;
 }
 
 /* feature-section */
@@ -101,12 +109,13 @@ header{
     padding-top: 40px;
     font-size: 20px;
     font-weight: 500;
-    font-family: 'Roboto', sans-serif;
+   font-family: 'Nunito', sans-serif;
+
 }
 .feature-txt{
     padding-top: 15px;
     font-size: 50px;
-    color: rgb(78, 78, 235);
+    color: blue;
 }
 .txt-center h1 span{
     margin-right: 50px;
@@ -125,7 +134,8 @@ header{
 .about-txt{
     font-size: 35px;
     padding-top: 10px;
-    font-family: 'Roboto', sans-serif;
+   font-family: 'Nunito', sans-serif;
+
 }
 .img-about-container{
     border-radius: 50%;
@@ -140,18 +150,20 @@ header{
     padding: 15px;
     box-shadow: 0 0 0 3px rgb(226, 223, 223);
     object-fit: cover;
+    border:none;
 }
 .about-para{
     font-size: 18px;
     padding-bottom: 15px;
-    font-family: 'Roboto', sans-serif;
+ font-family: 'Nunito', sans-serif;
+
 }
 .font-icons i{
     padding-top: 15px;
     padding-right: 15px;
     border-radius: 50%;
     font-size: 30px;
-    color: rgb(78, 78, 235);
+    color: blue;
 }
  /* service-section */
  .button-container{
@@ -162,25 +174,26 @@ header{
  .service-btn{
     padding: 12px 35px;
     background-color: #fff;
-    border-radius: 30px;
+    border-radius: 50px;
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
+   font-family: 'Nunito', sans-serif;
+
     font-weight: 400;
     cursor: pointer;
-    border: 1px solid rgb(226, 223, 223);
-    box-shadow: 0 0 0 2px rgb(226, 223, 223);
+    border:none;
+
     outline: none;
  }
  .dark-btn{
     color: #fff;
-    background-color: rgb(78, 78, 235);
+    background-color: blue;
  }
  .content{
     display: none;
  }
  .selectbtn:focus{
     color: #fff;
-    background-color: rgb(78, 78, 235);
+    background-color: blue;
  }
 
  /* community-section */
@@ -195,13 +208,15 @@ header{
 }
 .community-left p{
     margin-bottom: 20px;
-    font-family: 'Roboto', sans-serif;
+   font-family: 'Nunito', sans-serif;
+
 }
 .community-left li{
     padding-bottom: 20px;
     font-size: 18px;
     font-weight: 600;
-    font-family: 'Roboto', sans-serif;
+   font-family: 'Nunito', sans-serif;
+
 }
 .community-right img{
     height: 450px;
@@ -218,7 +233,8 @@ header{
     background-color: #ffffff;
     padding: 10px;
     border-radius: 20px;
-    font-family: 'Roboto', sans-serif;
+   font-family: 'Nunito', sans-serif;
+
 }
 .card-img img{
     width: 100%;
@@ -300,7 +316,7 @@ header{
 }
 /* app-section */
 .app-section{
-    background-color: rgb(78, 78, 235);
+    background-color: blue;
     padding-bottom: 30px;
     margin-top: 60px;
     border-top-left-radius: 50%;
@@ -339,7 +355,8 @@ header{
 .contact-section{
     background-color: #ffffff;
     padding-bottom: 40px;
-    font-family: 'Roboto', sans-serif;
+   font-family: 'Nunito', sans-serif;
+
 }
 .contact-box{
     display: flex;
@@ -350,7 +367,7 @@ header{
 .contact-icon i{
     width: 100px;
     font-size: 40px;
-    color: rgb(78, 78, 235);
+    color: blue;
 }
 .contact-title{
     color: gray;
@@ -363,11 +380,12 @@ header{
 }
 /* logo-section */
 .logo-section{
-    background-color: rgb(78, 78, 235);
+    background-color: blue;
     display: flex;
     justify-content: center;
     padding: 40px 0;
-    font-family: 'Roboto', sans-serif;
+   font-family: 'Nunito', sans-serif;
+
 }
 .logo-icons i{
     color: #fff;
@@ -394,7 +412,7 @@ header{
     display: none;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 460px){
     .container{
         flex-wrap: wrap;
     }

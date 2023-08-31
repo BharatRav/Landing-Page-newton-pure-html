@@ -1,25 +1,26 @@
 
+const selectableButtons=document.querySelectorAll('.selectbtn');
+const selectedCurrentContents=document.querySelectorAll(".content");
 const bars=document.querySelector('.bars');
+
+
+
 bars.addEventListener('click',()=>{
-    const nav=document.querySelector('.nav-links');
-    nav.classList.toggle('active-nav');
+    const navLinks=document.querySelector('.nav-links');
+    navLinks.classList.toggle('active-nav');
 })
 
+selectedCurrentContents[0].style.display= 'flex';
+selectableButtons[0].focus();
 
-const selectButtons=document.querySelectorAll('.selectbtn');
-const contents=document.querySelectorAll(".content");
-
-contents[0].style.display= 'flex';
-selectButtons[0].focus();
-
-selectButtons.forEach((button,index)=>{
+selectableButtons.forEach((button,index)=>{
     button.addEventListener('click',()=>{
-        contents.forEach((ctx,ctxIndex)=>{
-         if(index===ctxIndex){
-            ctx.style.display= 'flex';
+        selectedCurrentContents.forEach((sccs,sccsIndex)=>{
+         if(index===sccsIndex){
+            sccs.style.display= 'flex';
             button.focus();
          }else{
-            ctx.style.display='none';
+            sccs.style.display='none';
          }
         })
     })
